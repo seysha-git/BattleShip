@@ -3,8 +3,8 @@ import os
 pg.font.init()
 
 #Screen settings 
-WIN_HEIGHT, WIN_WIDTH = 900,900
-WIN = pg.display.set_mode((WIN_HEIGHT, WIN_WIDTH))
+WIN_HEIGHT, WIN_WIDTH = 1000, 1800
+WIN = pg.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 pg.display.set_caption("Space Invaders")
 
 MAIN_SHIP_WIDTH,MAIN_SHIP_HEIGHT = 50,50
